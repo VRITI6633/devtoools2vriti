@@ -9,5 +9,86 @@ Template: twentysixteen
 
 @import url('../twentysixteen/style.css');
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+/*font-family: 'Open Sans', sans-serif; */
+
+body {
+    background: #250000;
+    font-family: 'Raleway', sans-serif;
+}
+
+.site-branding .site-title a {
+    color: #d8b4b4;
+    font-family: 'Quicksand', sans-serif;
+
+}
 
 
+
+
+    .site-branding .site-title a:hover, .site-branding .site-title a:focus {
+    color: #0a869c;
+}
+.entry-title a {
+    color: #d8d5d5;
+}
+
+.site-description {
+    color: #846162;
+ }
+
+ .site-info a {
+    color: #481818;
+}
+
+a {
+    color: #65433f;
+}
+
+
+.site {
+    background-color: #250000;
+}
+
+.post-navigation a {
+    color: #846c6c;
+ }
+
+
+focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 5px;
+}
+
+
+
+body, button, input, select, textarea {
+    color: #673131;
+}
+
+
+.main-navigation a {
+    color: #d4bcbc;
+}
+
+@media screen and (mon-width:56.875em){
+     .widget  .widget-title {
+     	font-size: 1rem;
+}
+
+
+.sticky-post::before{
+	background-color: chartreuse;
+	content:"Featured Content";
+	display: :black;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 80 %;
+	padding: 1 em
+
+
+}
